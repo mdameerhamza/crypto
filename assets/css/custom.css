@@ -1,0 +1,201 @@
+.mb5{
+  margin-bottom: 5px;
+}
+.w25{ 
+  width: 25px;
+}
+.btn .btn1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.site-logo {
+  height: 73%;
+margin-top: -11px;
+width: 68%;
+}
+/* The navigation menu */
+.mnavbar {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 72px;
+  z-index: 9998;
+}
+
+.mnavbar a{
+ text-decoration: none;
+ color: black;
+}
+
+/* Navigation links */
+.mnavbar a.mainmenu {
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  max-width: 100%;
+  padding: 11px;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 0px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  margin: 3px;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 15px;
+  outline: none;
+  font-family: inherit;
+  max-width: 100%;
+  padding: 11px;
+  background: #fff;
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  margin: 3px;
+}
+
+/* Add a red background color to navigation links on hover */
+.mnavbar a:hover, .subnav:hover .subnavbtn {
+  background-color: lightgray;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+ display: none;
+ position: absolute;
+ z-index: 1;
+ background-color: white;
+ border-radius: 4px;
+ box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+}
+
+.subnav-content div {
+
+  padding: 3px 15px;
+
+}
+/* Add a grey background color on hover */
+.subnav-content div:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+} 
+.main-top-nav-margin {
+  margin-top: 0px;
+}
+.pr40{
+  padding-right: 40px;
+}
+
+.ad-banner{
+  width: inherit;
+}
+.ad-banner img{
+
+  width: 100%;
+  height: inherit;
+  border-radius:inherit; 
+
+}
+.subnavbtn i{
+  padding-left: 5px;
+}
+
+.ad-banner {
+  height: auto;
+}
+
+.comingsoon-div{
+
+  padding-top: 10%; 
+}
+
+.home-icon{
+  text-align: left;
+font-size: 44px;
+padding: 0px;
+}
+
+.home-icon a {
+  color: black;
+}
+#back2Top {
+    width: 50px;
+    line-height: 43px;
+    overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 13px;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 5px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+#back2Top:hover {
+    background-color: #e8e8e8;
+    color: black;
+}
+.btn-black {
+  background-color: black;
+color: white;
+margin-top: 10px;
+border-radius: 15px;
+font-size: 16px;
+font-weight: bold;
+}
+.currency_select_box{
+padding-right: 20px;
+padding-bottom: 50px;
+
+
+
+}
+#MCCLMC-currencies-select-box {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+   
+}
+
+.table-btns{
+  width: 76px;
+  height: 72px;
+  text-align: center;
+}
+.sub-email-div{
+  padding: 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0px -12px 10px rgba(0, 0, 0, 0.08);
+  margin: 24px;
+  min-height: 200px;
+}
+
+.sub-email-inside-div{
+    padding: 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0px -12px 10px rgba(0, 0, 0, 0.08);
+  margin: 24px;
+  border: 1px solid lightgray;
+  min-height: 200px;
+}
